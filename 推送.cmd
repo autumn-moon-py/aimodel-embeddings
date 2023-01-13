@@ -1,5 +1,5 @@
-@echo off
 git add .
 git commit -m "new pt"
 git push
-pause
+if %errorlevel% neq 0 pause
+exit

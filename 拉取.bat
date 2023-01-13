@@ -1,2 +1,4 @@
+@echo off
 git pull
-pause
+if %errorlevel% neq 0 pause
+exit
